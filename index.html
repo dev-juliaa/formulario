@@ -35,87 +35,70 @@
         <form id="form" class="form">
             <div class="form-control">
                 <label for="username">Nome De Usuario</label>
-                <input type="text" id="username" placeholder="digite seu username" >
+                <input type="text" id="username" placeholder="digite seu username" required >
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
             </div>
 
-                 <div class="form-control">
+            <div class="form-control">
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder='digite seu email'>
             </div>
 
             <div class="form-control">
                 <label for="password">Senha</label>
-                <input type="text" id="password" placeholder="digite sua senha" >
+                <input type="text" id="password" placeholder="digite sua senha" required oninvalid="this.setCustomValidity('mensagem de sua preferência')" oninput="setCustomValidity('')">
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
-            </div>
-
-            <div class="form-control">
-                <label for="password-confirmation">Confirme Sua Senha</label>
-                <input type="text" id="password-confirmation" placeholder="confime sua senha" >
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
             </div>
 
             <div class="form-control">
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" placeholder="digite seu telefone" >
+                <input type="text" id="telefone" placeholder="digite seu telefone" required >
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
             </div>
 
             <div class="form-control">
                 <label for="cep">Cep</label>
-                <input type="text" id="cep" placeholder="digite seu cep" >
+                <input type="text" id="cep" placeholder="digite seu cep" required>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
             </div>
 
             <div class="form-control">
                 <label for="endereço">Endereço</label>
-                <input type="text" id="endereço" placeholder="digite seu endereço" >
+                <input type="text" id="endereço" placeholder="digite seu endereço" required >
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
             </div>
 
             <div class="form-control">
                 <label for="numero">Numero</label>
-                <input type="text" id="numero" placeholder="digite seu numero" >
+                <input type="text" id="numero" placeholder="digite seu numero" required>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
             </div>
 
             <div class="form-control">
                 <label for="bairro">Bairro</label>
-                <input type="text" id="bairro" placeholder="digite seu bairro" >
+                <input type="text" id="bairro" placeholder="digite seu bairro" required >
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
             </div>
 
             <div class="form-control">
                 <label for="cidade">Cidade</label>
-                <input type="text" id="cidade" placeholder="digite sua cidade" >
+                <input type="text" id="cidade" placeholder="digite sua cidade" required>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
             </div>
 
             <div class="form-control">
                 <label for="estado">Estado</label>
-                <input type="text" id="estado" placeholder="digite seu estado" >
+                <input type="text" id="estado" placeholder="digite seu estado" required >
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
-                <small>Mensagem De Erro</small>
             </div>
         <br>
         <br>
