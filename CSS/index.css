@@ -175,27 +175,6 @@ form{
      border-radius: 10px;
      padding: 1px;
 }
-
-.form-control.success input {
-    border-color: #2ecc71;
+.input input:invalid + span {
+    display: inline /* Exibe o span somente se o input for inválido. */
   }
-  
-  .form-control.error input {
-    border-color: #e74c3c;
-  }
-  
-  .form-control.success i.fa-check-circle {
-    color: #2ecc71;
-    visibility: visible;
-  }
-  
-  .form-control.error i.fa-exclamation-circle {
-    color: #e74c3c;
-    visibility: visible;
-  }
-  
-  .form-control.error small {
-    visibility: visible;
-    color: #e74c3c;
-  }
-  
